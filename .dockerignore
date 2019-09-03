@@ -1,0 +1,14 @@
+.dockerignore
+.gitignore
+.env
+
+/.git
+/.vscode
+/Makefile
+/README.md
+/tmp
+
+*.exe
+*.log
+*.out
+*.zip

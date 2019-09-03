@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+
+  # integration tests image
+  test:
+    image: ${PROJECT}-integration
+    env_file:
+      - .env
+    links: 
+      - application
